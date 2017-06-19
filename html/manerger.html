@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>后台管理</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+
+<body>
+<!--<div class="top">
+    <span>商品管理</span>
+    <span>用户管理</span>
+</div>-->
+<div class="bottom">
+    <div class="goods">
+        <!--<button class="addGoods">增加商品</button>-->
+        <table class="gTable table  table-bordered table-hover" style="width: 80%;margin-top:30px; " border="1" id="showgood">
+            <thead>
+            <td>序号</td>
+            <td>商品名称</td>
+            <td>NO5特价</td>
+            <td>正常价格</td>
+            <td>商品规格</td>
+            <td>商品土样</td>
+            <td>操作</td>
+            </thead>
+        </table>
+        <div class="add">
+            <p style="text-align: center;">添加商品</p>
+            <span class="cancel">&times;</span>
+            <form>
+                <div><span>商品名字:</span><input type="text" class="gname"></div>
+                <div><span>商品原价:</span><input type="text" class="gvalue"></div>
+                <div><span>商品现价:</span><input type="text" class="gnowvalue"></div>
+                <div><span>商品规格:</span><input type="text" class="gsize"></div>
+                <div hidden="hidden"><span>商品ID：</span><input type="text" class="gid"></div>
+                <img id="uploadhead" style="max-width: 100px;max-height: 100px;">
+                <div>
+                    <label for="imgUpload">图片图像:</label><input type="file" name="imgUpload" id="imgUpload">
+                </div>
+                <div class="oparate">
+                    <button type="button" class="reinput">重新输入</button>
+                    <button type="button" class="gadd">添加</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.12.4.js"></script>
+<script src="../js/admin.js"></script>
+</body>
+
+</html>

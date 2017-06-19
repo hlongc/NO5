@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script>
+        $(function(){
+            console.log($("#want"));
+            $("#want").change(function(){
+                 console.log($(this).children('option:selected').val());
+            })
+        })
+    </script>
+</head>
+<body>
+    <select id="want">
+        <option>请选择</option>
+        <option>成都</option>
+        <option>内江</option>
+        <option>北京</option>
+    </select>
+    <div style="width:100px;height:20px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden; ">a b c d e f g h i j k l , msa sd sd sa w df f </div>
+</body>
+</html>

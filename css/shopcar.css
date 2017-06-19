@@ -1,0 +1,291 @@
+/*clear*/
+
+html,
+body,
+div,
+input,
+img,
+ul,
+li,
+a,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+img {
+	display: block;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #989898;
+}
+
+body {
+	font-size: 12px;
+	font-family: "microsoft yahei";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+
+/*head*/
+
+.head {
+	width: 950px;
+	height: 76px;
+	margin: 0 auto;
+	background: red;
+	background: url(../images/shopcar.png) no-repeat 10px 5px;
+}
+
+.head .right {
+	float: right;
+	padding-top: 36px;
+	text-align: right;
+	line-height: 40px;
+}
+
+.head .right a {
+	padding: 0 7px;
+	border-right: 1px solid #cfcfcf;
+}
+
+.head .right a:hover {
+	color: #000;
+}
+
+
+/*car*/
+
+.car {
+	width: 948px;
+	margin: 0 auto;
+	border: 1px solid #cbcbcb;
+}
+
+.car_tip {
+	width: 948px;
+	height: 33px;
+	background: url(../images/cart-tip-bg.png) repeat-x;
+	text-align: center;
+	line-height: 33px;
+}
+
+.num,
+.goods_name,
+.standard,
+.normal_price,
+.no5_price,
+.amount,
+.sub_total,
+.favorite,
+.del {
+	float: left;
+	height: 33px;
+	color: #2b2d3a;
+}
+
+.num {
+	width: 37px;
+}
+
+.goods_name {
+	width: 559px;
+}
+
+.standard {
+	width: 40px;
+}
+
+.normal_price {
+	width: 48px;
+}
+
+.no5_price {
+	width: 53px;
+}
+
+.amount {
+	width: 32px;
+}
+
+.sub_total {
+	width: 61px;
+}
+
+.favorite {
+	width: 74px;
+}
+
+.del {
+	width: 44px;
+}
+
+.car_list li {
+	height: 33px;
+	line-height: 33px;
+	text-align: center;
+	border-bottom: 1px dashed #ccc;
+}
+
+
+.favorite a,
+.del a,
+.clear {
+	color: #003791;
+}
+
+.favorite a:hover,
+.del a:hover,
+.clear:hover,
+.choose a:hover {
+	text-decoration: underline;
+	color: #ff9900;
+}
+
+.total {
+	height: 26px;
+	line-height: 26px;
+	text-align: right;
+}
+
+.total b {
+	color: #fc0000;
+}
+
+.operate {
+	width: 950px;
+	margin: 0 auto;
+	height: 58px;
+	margin-bottom: 27px;
+}
+
+.operate .left {
+	width: 50%;
+	float: left;
+	padding-top: 20px;
+}
+
+.operate .left .txt {
+	margin: 0 10px;
+	border: 1px solid #ccc;
+}
+
+.operate .left .btn {
+	border: 1px solid #ccc;
+	cursor: pointer;
+	padding: 0 2px;
+}
+
+.operate .right {
+	width: 35%;
+	float: right;
+	padding-top: 15px;
+	line-height: 28px;
+}
+
+.btn_go_on,
+.btn_go_sett {
+	float: right;
+	width: 97px;
+	height: 28px;
+	cursor: pointer;
+	margin: 0 10px;
+}
+
+.btn_go_on {
+	background: url(../images/btn-go-on.png) no-repeat;
+}
+
+.btn_go_sett {
+	width: 111px;
+	background: url(../images/btn-go-sett.png) no-repeat;
+}
+
+
+/*recommend*/
+
+.recommend {
+	width: 944px;
+	margin: 0 auto;
+	border: 3px solid #d4f1f9;
+	border-top: 0;
+	padding-bottom: 30px;
+	overflow: hidden;
+}
+
+.title {
+	height: 30px;
+	background: url(../images/thbg.png) no-repeat;
+	margin-bottom: 15px;
+}
+
+.buybuybuy {
+	margin-left: 25px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+.column {
+	width: 280px;
+	height: 34px;
+	background: #e3e3e3;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	line-height: 34px;
+	color: #008dea;
+}
+
+.choose {
+	width: 268px;
+	border: 1px solid #e1e1e1;
+	padding: 10px 5px;
+}
+
+.choose p {
+	margin: 10px 0;
+}
+
+.choose .no5_p {
+	color: #ff9900;
+	margin-left: 3px;
+}
+
+.btn_add {
+	width: 89px;
+	height: 24px;
+	background: url(../images/btn-sp-add.png) no-repeat;
+	cursor: pointer;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+.id{
+	display: none;
+}

@@ -1,0 +1,64 @@
+{
+    "banner":["images/ordermove1.jpg",
+            "images/ordermove2.jpg",
+            "images/ordermove3.jpg",
+            "images/ordermove4.jpg",
+            "images/ordermove5.jpg",
+            "images/ordermove6.jpg"],
+    "subbanner":[
+                    ["images/subbanner1.jpg",
+                    "images/subbanner2.jpg",
+                    "images/subbanner3.jpg"],
+                    ["images/subbanner4.jpg",
+                    "images/subbanner5.jpg",
+                    "images/subbanner6.jpg"],
+                    ["images/subbanner7.jpg",
+                    "images/subbanner8.jpg",
+                    "images/subbanner9.jpg"],
+                    ["images/subbanner10.jpg",
+                    "images/subbanner11.jpg",
+                    "images/subbanner12.jpg"],
+                    ["images/subbanner13.jpg",
+                    "images/subbanner14.jpg",
+                    "images/subbanner15.jpg"],
+                    ["images/subbanner16.jpg",
+                    "images/subbanner17.jpg",
+                    "images/subbanner18.jpg"]
+                ],
+    "bannerBottom":["images/pic1.jpg",
+                    "images/pic2.jpg",
+                    "images/pic3.jpg"],
+    "pics_box":["images/pics1.jpg",
+               "images/pics2.jpg",
+               "images/pics3.jpg",
+               "images/pics4.jpg",
+               "images/pics5.jpg"],
+    "logs":["images/logos1.jpg",
+           "images/logos2.jpg",
+           "images/logos3.jpg",
+           "images/logos4.jpg",
+           "images/logos5.jpg",
+           "images/logos6.jpg",
+           "images/logos7.jpg",
+           "images/logos8.jpg",
+           "images/logos9.jpg",
+           "images/logos10.jpg",
+           "images/logos11.jpg",
+           "images/logos12.jpg"]
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

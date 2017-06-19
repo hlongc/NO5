@@ -1,0 +1,174 @@
+{
+    "isShow":[
+        {
+           "bigKind":[
+                {"item":"面部护理","count":"2430"},
+                {"item":"彩妆","count":"969"},
+                {"item":"香氛","count":"489"},
+                {"item":"身体护理","count":"513"},
+                {"item":"头发护理","count":"258"},
+                {"item":"男士专区","count":"401"},
+                {"item":"美容工具","count":"174"}
+            ] 
+        },
+        {
+          "smallKind":[
+              [
+                  {"item":"卸妆步骤","count":"126"},
+                  {"item":"洁肤步骤","count":"263"},
+                  {"item":"爽肤步骤","count":"366"},
+                  {"item":"精华步骤","count":"330"},
+                  {"item":"润肤步骤","count":"503"},
+                  {"item":"日间防护","count":"118"},
+                  {"item":"眼唇护理","count":"10"},
+                  {"item":"特殊护理","count":"46"},
+                  {"item":"T区护理","count":"6"},
+                  {"item":"口服美容","count":"193"},
+                  {"item":"护肤套装","count":"6"},
+                  {"item":"儿童护肤","count":"193"}
+              ],
+              [
+                  {"item":"底妆","count":"444"},
+                  {"item":"眉毛","count":"39"},
+                  {"item":"眼线","count":"67"},
+                  {"item":"眼影","count":"41"},
+                  {"item":"睫毛","count":"86"},
+                  {"item":"颊装","count":"19"},
+                  {"item":"唇妆","count":"219"},
+                  {"item":"甲装","count":"61"},
+                  {"item":"彩妆组合","count":"12"}
+              ],
+              [
+                  {"item":"女士香氛","count":"340"},
+                  {"item":"男士香氛","count":"124"},
+                  {"item":"中性香水","count":"10"},
+                  {"item":"限量版","count":"8"},
+                  {"item":"香氛套装","count":"22"}
+              ],
+              [
+                  {"item":"颈部护理","count":"126"},
+                  {"item":"手足护理","count":"11"},
+                  {"item":"洁肤沐浴","count":"101"},
+                  {"item":"香体润体","count":"8"},
+                  {"item":"丰胸美乳","count":"114"},
+                  {"item":"纤体瘦身","count":"8"},
+                  {"item":"止汗脱毛","count":"26"},
+                  {"item":"洗护套装","count":"25"},
+                  {"item":"儿童洗护","count":"107"}
+              ],
+              [
+                  {"item":"日常护理","count":"174"},
+                  {"item":"特殊护理","count":"53"},
+                  {"item":"防脱育发","count":"27"},
+                  {"item":"染发","count":"23"},
+                  {"item":"造型","count":"4"},
+                  {"item":"儿童发用","count":"30"}
+              ],
+              [
+                  {"item":"面部护肤","count":"150"},
+                  {"item":"剃须护理","count":"10"},
+                  {"item":"身体护理","count":"46"},
+                  {"item":"头发护理","count":"6"},
+                  {"item":"男士精品","count":"193"}
+              ],
+              [
+                  {"item":"护肤工具","count":"17"},
+                  {"item":"彩妆工具","count":"69"},
+                  {"item":"美体工具","count":"28"},
+                  {"item":"美发工具","count":"2"},
+                  {"item":"家居工具","count":"58"}
+              ]
+          ]  
+        }  
+    ],
+    "friendlink":[
+        {"title":[
+            "如何订购",
+            "如何送货",
+            "如何付款",
+            "订单查询",
+            "会员服务",
+            "联系我们"
+        ]},
+        {"subtitle":[
+            ["网上下单",
+             "电话订购",
+             "邮寄订购",
+             "传真订购"],
+            ["送货上门",
+             "快递",
+             "邮政EMS"],
+            ["货到付款",
+             "在线支付",
+             "邮政汇款",
+             "银行汇款"],
+            ["订单状态",
+             "查询订单",
+             "无效订单",
+             "支付失败",
+             "缺货登记"],
+            ["N°5会员级别",
+             "N°5购物保障",
+             "N°5贴心服务",
+             "账户积分使用"],
+            ["关于N°5",
+             "加入N°5",
+             "团购加盟",
+             "网站加盟",
+             "投诉建议"]
+        ]}
+    ],
+    "commodity":[
+        {
+            "src":"../images/listing2.jpg",
+            "name":"PHILIPS 飞利浦电动剃须刀HQ6071",
+            "id":"1",
+            "price":"333.00",
+            "discount":"7.8折"
+        },
+        {
+            "src":"../images/listing3.jpg",
+            "name":"PHILIPS 飞利浦电动剃须刀HQ852",
+            "id":"2",
+            "price":"66.00",
+            "discount":"2.3折"
+        },
+        {
+            "src":"../images/listing4.jpg",
+            "name":"PHILIPS 飞利浦电动剃须刀HQ920",
+            "id":"3",
+            "price":"340.00",
+            "discount":"3.3折"
+        },
+        {
+            "src":"../images/listing5.jpg",
+            "name":"Panasonic 松下电动剃须刀ES5821K(黑色)",
+            "id":"4",
+            "price":"290.00",
+            "discount":"4.3折"
+        },
+        {
+            "src":"../images/listing6.jpg",
+            "name":"Panasonic 松下电动剃须刀ES-RC50-S(银色)",
+            "id":"5",
+            "price":"155.00",
+            "discount":"5.9折"
+        },
+        {
+            "src":"../images/listing7.jpg",
+            "name":"Panasonic 松下电动剃须刀ES6013",
+            "id":"6",
+            "price":"355.00",
+            "discount":"6.3折"
+        }
+    ]
+}
+
+
+
+
+
+
+
+
+

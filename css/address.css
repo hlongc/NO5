@@ -1,0 +1,174 @@
+.address{
+	width: 958px;
+	border: 1px solid #ccc;
+	margin: 10px auto 30px;
+	padding: 10px;
+}
+.title{
+	height: 30px;
+	line-height: 30px;
+	background: #eeeeee;
+	border: 1px solid #b7b7b7;
+	text-align: center;
+}
+.title a{
+	padding: 5px 48px 4px 16px;
+	color: #9b9b9b;
+	font-size: 16px;
+}
+.title .active{
+	background: #58d7f8;
+}
+.bt{
+	height: 29px;
+	line-height: 29px;
+	font-size: 14px;
+	color: #000;
+}
+.bt img{
+	position: absolute;
+	margin-top: 8px;
+	margin-left: 5px;
+	width: 21px;
+	height: 16px;
+}
+.address_form{
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #c8c8c8;
+}
+
+.address_form p{
+	margin: 8px 0;
+	height: 20px;
+	color: #676767;
+}
+
+.address_form input{
+	width: 270px;
+	height: 18px;
+	line-height: 18px;
+	border: 1px solid #9a9a9a;
+	border-right: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	background: #fafafa;
+	margin-left: 80px;
+}
+.address_form p span{
+	position: absolute;
+	margin-left: 20px;
+	white-space:  pre;
+}
+
+.province{
+	margin-left: 80px;
+}
+
+.address select{
+	width: 120px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 12px;
+	border: 1px solid #ababab;
+}
+.address_form .save{
+	margin-left: 80px;
+	width: 104px;
+	height: 27px;
+	line-height: 24px;
+	text-align: center;
+	background: #ffcc5f;
+	border-right: 1px solid #af4b00;
+	border-bottom: 1px solid #af4b00;
+	cursor: pointer;
+	font-weight: bold;
+}
+#infor{
+	width: 20px;
+}
+.last_p label{
+	position: absolute;
+	color: #0603ff;
+	cursor: pointer;
+}
+.pay_way{
+	height: 213px;
+	border-bottom: 1px dashed #ccc;
+}
+.your_address{
+	width: 171px;
+	float: left;
+}
+.send_way{
+	width: 592px;
+	float: left;
+	margin: 0 2px;
+	color: #686868;
+}
+.pay{
+	width: 191px;
+	float: left;
+}
+.subbt{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background: #e3f2f9;
+	color: #080393;
+	font-weight: bold;
+}
+.your_address li{
+	height: 29px;
+	line-height: 29px;
+	border-bottom: 1px dashed #ccc;
+	color: #000800;
+	font-weight: bold;
+}
+.send_way p{
+	height: 28px;
+	line-height: 28px;
+}
+.send_way span{
+	font-weight: bold;
+	color: #6e6b7c;
+}
+.send_way a{
+	color: red;
+	text-decoration: underline;
+}
+.choose_pay{
+	border: 1px solid #fec85e;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	color: #a62b09;
+	background: #fff8d4;
+}
+.message{
+	height: 76px;
+	/*border-top: 1px dashed #ccc;*/
+}
+.leave{
+	height: 76px;
+	line-height: 76px;
+}
+.message div{
+	float: left;
+}
+.message textarea{
+	resize: none;
+	width: 295px;
+	height: 35px;
+	margin-top: 16px;
+}
+.message .right{
+	float: right;
+	margin-right: 60px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.error{
+	color: red;
+}
+.message .left textarea{
+	font-size: 12px;
+}

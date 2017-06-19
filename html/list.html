@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>列表页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <script src="../js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/list.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../js/template.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header_box">
+        <div class="header">
+            <div class="header_left">
+                晚上好<span></span>,欢迎光临No5时尚广场。[
+                <a href="login.html" id="welcome">登录</a>] [
+                <a href="register.html">免费注册</a>]
+            </div>
+            <div class="header_right">
+                <ul>
+                    <li>
+                        <a href="javascript:;">我的账户</a>
+                    </li>
+                    <em></em>
+                    <li>|</li>
+                    <li>
+                        <a href="javascript:;">收藏本站</a>
+                    </li>
+                    <li>|</li>
+                    <li>
+                        <a href="javascript:;">帮助中心</a>
+                    </li>
+                    <li class="num"><span></span>400-883-6655</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--top-->
+    <div class="top">
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../images/logo.jpg" />
+            </a>
+        </div>
+        <div class="search">
+            <input type="text" />
+            <div class="searchbtn">搜索</div>
+            <div class="keyword">
+                热门搜索:
+                <a href="#" class="hot_goods">防晒霜</a>
+                <a href="javascript:;">补水保湿</a>
+                <a href="javascript:;">水宝宝</a>
+                <a href="#" class="hot_goods">夏季美白</a>
+                <a href="javascript:;">雅诗兰黛</a>
+                <a href="javascript:;">魔漫面膜</a>
+                <a href="javascript:;">专柜小样</a>
+            </div>
+        </div>
+        <a href="shopcar.html" class="shopcar">
+        购物车&nbsp;<span id="amount">0</span>&nbsp;件
+    </a>
+    </div>
+
+    <!--nav-->
+    <div class="navbox_repalce">
+        <div class="navbox">
+            <div class="nav">
+                <div class="good_list">
+                    全部物品分类
+                </div>
+                <ul class="list">
+                    <li>
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">超值小样</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">明星推荐</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">最新活动</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">新品上架</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hot">本周特价</a>
+                    </li>
+                    <li>
+                        <a href="#" class="hot">清仓</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">品牌库</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--bread-->
+    <div class="bread">
+        <a href="javascript:;">首页</a>
+        <span>></span>
+        <a href="javascript:;">男士专区</a>
+        <span>></span>
+        <a class="last_a">剃须护理</a>
+    </div>
+    <!--list-->
+    <div class="list_box">
+        <div class="list_left" id="list_left">
+            <div class="rank">
+                一周销量排行榜
+            </div>
+            <div class="ranklist">
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/ranklist1.jpg"/></a></dt>
+                    <dd>
+                        <p class="name">Shiseido 资生堂MG5男士须后水</p>
+                        <p class="price">&yen;55.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/ranklist2.jpg"/></a></dt>
+                    <dd>
+                        <p class="name">Shiseido 资生堂MG5男士须后水</p>
+                        <p class="price">&yen;55.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/ranklist3.jpg"/></a></dt>
+                    <dd>
+                        <p class="name">Shiseido 资生堂MG5男士须后水</p>
+                        <p class="price">&yen;55.00</p>
+                    </dd>
+                </dl>
+            </div>
+            <div class="rank">
+                浏览过该类商品的顾客还购买了
+            </div>
+            <div class="morebuy">
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/morebuy1.jpg"/></a>
+                    <span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">L’Occitane 欧舒丹马鞭草妈妈香皂</a>
+                        </p>
+                        <p class="price">&yen;38.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/morebuy2.jpg"/></a>
+                    <span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">L’Occitane 欧舒丹马鞭草妈妈香皂</a>
+                        </p>
+                        <p class="price">&yen;38.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/morebuy3.jpg"/></a>
+                    <span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">L’Occitane 欧舒丹马鞭草妈妈香皂</a>
+                        </p>
+                        <p class="price">&yen;38.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/morebuy4.jpg"/></a>
+                    <span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">L’Occitane 欧舒丹马鞭草妈妈香皂</a>
+                        </p>
+                        <p class="price">&yen;38.00</p>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/morebuy5.jpg"/></a>
+                    <span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">L’Occitane 欧舒丹马鞭草妈妈香皂</a>
+                        </p>
+                        <p class="price">&yen;38.00</p>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="list_right">
+            <div class="set_top">
+                <dl>
+                    <dt><a href="javascript:;"><img src="../images/set_top.jpg"/></a><span></span></dt>
+                    <dd>
+                        <p>
+                            <a href="javascript:;">美国老牌Thayers金缕梅爽肤水(薄荷型7001) 355ml</a>
+                        </p>
+                        <p class="price">&yen;95.00</p>
+                        <a href="#" class="buy">立即购买</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="filtrate">
+                <ul>
+                    <li>
+                        <div class="wrap">
+                            <div class="">
+                                <b>品牌 :</b>
+                            </div>
+
+                            <div class="no_limit initial">
+                                不限
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">OPQ</a>
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">XYZ</a>
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">ABCD</a>
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">RST</a>
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">EFG</a>
+                            </div>
+                            <div class="initial">
+                                <a href="javascript:;">HIJK</a>
+                            </div>
+                        </div>
+                        <div class="brand_list">
+                            <a href="javascript:;">倩碧</a>
+                            <a href="javascript:;">资生堂</a>
+                            <a href="javascript:;">碧欧泉</a>
+                            <a href="javascript:;">松下</a>
+                            <a href="javascript:;">Thayers</a>
+                        </div>
+                    </li>
+                    <li class="choose">
+                        <b>类别 :</b>
+                        <a href="javascript:;">不限</a>
+                        <a href="javascript:;">剃须泡沫</a>
+                        <a href="javascript:;">须后护理</a>
+                        <a class="active_a" href="#">剃须刀</a>
+                    </li>
+                    <li class="choose">
+                        <b>产地 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">中国</a>
+                        <a href="javascript:;">美国</a>
+                        <a href="javascript:;">法国</a>
+                        <a href="javascript:;">其他</a>
+                    </li>
+                    <li class="choose">
+                        <b>包装 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">有外盒无密封</a>
+                        <a href="javascript:;">无外盒有密封</a>
+                        <a href="javascript:;">无外盒无密封</a>
+                    </li>
+                    <li class="choose">
+                        <b>功效 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">补水平衡</a>
+                        <a href="javascript:;">控油祛痘</a>
+                    </li>
+                    <li class="choose">
+                        <b>肤质 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">所有肤质</a>
+                        <a href="javascript:;">混合偏油性</a>
+                        <a href="javascript:;">油性</a>
+                    </li>
+                    <li class="choose">
+                        <b>肤龄 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">所有肤龄</a>
+                        <a href="javascript:;">青春肌(12-17)</a>
+                        <a href="javascript:;">年轻肌(18-24)</a>
+                        <a href="javascript:;">青熟肌(35-34)</a>
+                        <a href="javascript:;">成熟肌(35-44)</a>
+                    </li>
+                    <li class="choose">
+                        <b>价格 :</b>
+                        <a class="active_a" href="#">不限</a>
+                        <a href="javascript:;">0-100元</a>
+                        <a href="javascript:;">101-200元</a>
+                        <a href="javascript:;">201-300元</a>
+                        <a href="javascript:;">301-400元</a>
+                        <a href="javascript:;">401-800元</a>
+                        <a href="javascript:;">800元以上</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sort" id="sort">
+                <div class="sort_type0">
+                    排序 :
+                </div>
+                <div class="sort_type active">
+                    销量
+                </div>
+                <div class="sort_type" id="sort_type">
+                    价格
+                </div>
+                <div class="sort_type">
+                    好评度
+                </div>
+                <div class="sort_type">
+                    上架时间
+                </div>
+                <div class="total">
+                    <div class="total_num">
+                        共<span class="num"> 6 </span>个商品
+                    </div>
+                    <div class="sperate">
+                        |
+                    </div>
+                    <div class="total_page">
+                        <span class="total_page_pre">1</span>
+                        <span class="total_page_last">/1</span>
+                    </div>
+                    <div class="pre_next">
+                        <div class="pre">
+                            上一页
+                        </div>
+                        <div class="next">
+                            下一页
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="listing" id="listing">
+                <script id="commodity" type="text/html">
+                    {{each list value index}}
+                    <dl>
+                        <dt><img src="{{value.src}}"/></dt>
+                        <dd>
+                            <p>
+                                <a class="cl" href="detail.html" style="width:200px;text-overflow:ellipsis; white-space:nowrap; overflow:hidden;display: inline-block " dataid={{value.id}}>{{value.name}}</a>
+                            </p>
+                            <p class="price">&yen;<b class="sort_price" ovalue={{value.normal}}>{{value.no5}}</b><span>({{((value.no5*10)/(value.normal)).toFixed(1)}})折</span>
+                            </p>
+                            <p>
+                                <div class="join">
+                                    加入购物车
+                                </div>
+                                <div class="collect">
+                                    收藏
+                                </div>
+                            </p>
+                        </dd>
+                    </dl>
+                    {{/each}}
+                </script>
+            </div>
+        </div>
+    </div>
+
+    <!--friendlinks-->
+    <div class="friendlinks">
+        <div class="contact">
+            <div class="tel">
+                <p class="num">400-883-6655</p>
+                <p class="time">9:00-18:00</p>
+            </div>
+            <div class="sina">
+                新浪官方微博
+                <a href="javascript:;"><img src="../images/notice.jpg" /></a>
+            </div>
+            <div class="subscibebox">
+                <input class="eadd" type="text" value="请输入您的Emali地址" />
+                <div class="subscibe">
+                    订阅
+                </div>
+            </div>
+            <h6>最新美容资讯，新品及促销信息</h6>
+        </div>
+        <div class="sweep">
+            <img src="../images/2wm.jpg" />
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class="footer">
+        <dl>
+            <dt><img src="../images/footer_img1.jpg"/></dt>
+            <dd>
+                <p>足不出户 享受网购乐趣</p>
+                <p>北京城区次日送达</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/footer_img2.jpg"/></dt>
+            <dd>
+                <p>品质保证</p>
+                <p>15天不满意退换货</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/footer_img3.jpg"/></dt>
+            <dd>
+                <p>价格实惠 购物有积分</p>
+                <p>积分抵现金</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt><img src="../images/footer_img4.jpg"/></dt>
+            <dd>
+                <p>1800多城市送货上门</p>
+                <p>货到付款</p>
+            </dd>
+        </dl>
+
+    </div>
+    <!--copyright-->
+    <div class="copyright">
+        <p>Copyright &copy; 2001-2012 N°5.com.cn All Rights Reserved 京ICP备11045170号</p>
+    </div>
+</body>
+
+</html>

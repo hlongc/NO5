@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/shopcar.css" />
+		<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/shopcar.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--head-->
+		<div class="head">
+			<div class="right">
+				<a href="javascript:;">收藏夹</a>
+				<a href="javascript:;">新会员注册/登录</a>
+				<a href="javascript:;">我的帐户</a>
+				<a href="javascript:;">收藏本站</a>
+			</div>
+		</div>
+
+		<!--car-->
+		<div class="car">
+			<div class="car_tip">
+				<div class="num">
+					序号
+				</div>
+				<div class="goods_name">
+					商品名称
+				</div>
+				<div class="standard">
+					规格
+				</div>
+				<div class="normal_price">
+					一般价
+				</div>
+				<div class="no5_price">
+					No5价
+				</div>
+				<div class="amount">
+					数量
+				</div>
+				<div class="sub_total">
+					付款小计
+				</div>
+				<div class="favorite">
+					转入收藏夹
+				</div>
+				<div class="del">
+					删除
+				</div>
+			</div>
+		<!--	<ul class="car_list">
+				<li>
+					<div class="num">
+						序号
+					</div>
+					<div class="goods_name">
+						商品名称
+					</div>
+					<div class="standard">
+						规格
+					</div>
+					<div class="normal_price">
+						一般价
+					</div>
+					<div class="no5_price">
+						No5价
+					</div>
+					<div class="amount">
+						数量
+					</div>
+					<div class="sub_total">
+						付款小计
+					</div>
+					<div class="favorite">
+						<a href="javascript:;">转入收藏夹</a>
+					</div>
+					<div class="del">
+						<a href="javascript:;">删除</a>
+					</div>
+				</li>
+			</ul>-->
+			
+			<div class="total">
+				应付商品金额：<b>&yen; <span>0</span></b> 元
+			</div>
+		</div>
+		<!--删除，继续购物，结账下机-->
+		<div class="operate">
+			<div class="left">
+				<div>
+					输入兑换券账号:<input type="text" class="txt" /><input class="btn" type="button" value="兑换商品" />
+				</div>
+			</div>
+			<div class="right">
+				<a href="javascript:;" class="clear">清空购物车</a>
+				<a href="address.html" class="btn_go_sett">
+					
+				</a>
+				<a href="../index.html" class="btn_go_on">
+
+				</a>
+			</div>
+		</div>
+		<!--更多坑爹的推荐-->
+		<div class="recommend">
+			<div class="title"></div>
+			<div class="buybuybuy">
+				<div class="column">
+					迷你装香水特区
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="perfume"><a href="javascript:;"><span class="name">Moschino 爱恋爱女士香水</span><span class="size">4.9ml</span> <span class="no5_p">36</span></a><b class="id">7</b></p>
+					<p><input type="radio" name="perfume"><a href="javascript:;"><span class="name">迪奥小姐花漾淡香氛</span><span class="size">5ml</span>  <span class="no5_p">39</span></a><b class="id">8</b></p>
+					<p><input type="radio" name="perfume"><a href="javascript:;"><span class="name">范思哲黄水晶女士香水</span><span class="size">5ml</span> <span class="no5_p">38</span></a><b class="id">9</b></p>
+					<p><input type="radio" name="perfume"><a href="javascript:;"><span class="name">博柏利(巴宝莉)London伦敦男士香水</span><span class="size">4.5ml</span>  <span class="no5_p">35</span><b class="id">10</b></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+			<div class="buybuybuy">
+				<div class="column">
+					迷你装护肤品特区
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="skin"><a href="javascript:;">碧欧泉修颜平肤隔离霜(紫色CC霜) 5ml <span>25</span></a></p>
+					<p><input type="radio" name="skin"><a href="javascript:;">贝玲妃毛孔遮盖脸部底霜 3ml<span>15</span></a></p>
+					<p><input type="radio" name="skin"><a href="javascript:;">安娜苏魔幻媚惑眼影900# 浅青绿色(替换装,无外盒!)2.5g <span>20</span></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+			<div class="buybuybuy">
+				<div class="column">
+					彩妆特惠区
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="cosmetics"><a href="javascript:;">雅诗兰黛即时修护眼部密集精华露(小棕瓶即时特润眼霜) 4ml <span>35</span></a></p>
+					<p><input type="radio" name="cosmetics"><a href="javascript:;">安娜苏毛孔细致精华露(10468)无外盒!15ml  <span>50</span></a></p>
+					<p><input type="radio" name="cosmetics"><a href="javascript:;">倩碧舒柔润手护甲霜(2支装) <span>45</span></a></p>
+					<p><input type="radio" name="cosmetics"><a href="javascript:;">ROMINZ 诺曼姿植物胶原蛋白保湿乳液 30ml <span>19</span></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+			<div class="buybuybuy">
+				<div class="column">
+					15元特区
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="fifteen"><a href="javascript:;">Netharria妮塔莉雅 卸妆湿巾(40015) <span>15</span></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+			<div class="buybuybuy">
+				<div class="column">
+					免费领取
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="free"><a href="javascript:;">moMan 魔漫竹萃舒缓修护面膜(06870) <span>0</span></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+			<div class="buybuybuy">
+				<div class="column">
+					促销特惠区
+				</div>
+				<div class="choose">
+					<p><input type="radio" name="promotion"><a href="javascript:;">安娜苏瓷娃娃蔷薇润采保湿粉底液02#8ml <span>32</span></a></p>
+					<p><input type="radio" name="promotion"><a href="javascript:;">妲莉娅熠彩衡洁矿物清透洁面啫哩(93349)40ml  <span>48</span></a></p>
+					<p><input type="radio" name="promotion"><a href="javascript:;">SpongeBob海绵宝宝 婴儿棉柔手口湿巾七彩装 8片*7包 <span>7</span></a></p>
+					<div class="btn_add"></div>
+				</div>			
+			</div>
+		</div>
+	</body>
+
+</html>

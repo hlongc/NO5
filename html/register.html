@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../js/jquery-ui.css"/>
+		
+	</head>
+
+	<body>
+		<!--header-->
+		<div class="header_box">
+			<div class="header">
+				<div class="header_left">
+					晚上好<span></span>,欢迎光临No5时尚广场。[
+					<a href="login.html" id="welcome">登录</a>] [
+					<a href="register.html">免费注册</a>]
+				</div>
+				<div class="header_right">
+					<ul>
+						<li>
+							<a href="javascript:;">我的账户</a>
+						</li><em></em>
+						<li>|</li>
+						<li>
+							<a href="javascript:;">收藏本站</a>
+						</li>
+						<li>|</li>
+						<li>
+							<a href="javascript:;">帮助中心</a>
+						</li>
+						<li class="num"><span></span>400-883-6655</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!--top-->
+		<div class="top">
+			<div class="logo">
+				<a href="../index.html">
+					<img src="../images/logo.jpg" />
+				</a>
+			</div>
+			<div class="search">
+				<input type="text" />
+				<div class="searchbtn">搜索</div>
+				<div class="keyword">
+					热门搜索:
+					<a href="#" class="hot_goods">防晒霜</a>
+					<a href="javascript:;">补水保湿</a>
+					<a href="javascript:;">水宝宝</a>
+					<a href="#" class="hot_goods">夏季美白</a>
+					<a href="javascript:;">雅诗兰黛</a>
+					<a href="javascript:;">魔漫面膜</a>
+					<a href="javascript:;">专柜小样</a>
+				</div>
+			</div>
+			<a href="shopcar.html" class="shopcar">
+				购物车&nbsp;<span id="amount">0</span>&nbsp;件
+			</a>
+		</div>
+
+		<!--nav-->
+		<div class="navbox_repalce">
+		<div class="navbox">
+			<div class="nav">
+				<div class="good_list">
+					全部物品分类
+				</div>
+				<ul class="list">
+					<li>
+						<a href="../index.html">首页</a>
+					</li>
+					<li>
+						<a href="javascript:;">超值小样</a>
+					</li>
+					<li>
+						<a href="javascript:;">明星推荐</a>
+					</li>
+					<li>
+						<a href="javascript:;">最新活动</a>
+					</li>
+					<li>
+						<a href="javascript:;">新品上架</a>
+					</li>
+					<li>
+						<a href="#" class="hot">本周特价</a>
+					</li>
+					<li>
+						<a href="#" class="hot">清仓</a>
+					</li>
+					<li>
+						<a href="javascript:;">品牌库</a>
+					</li>
+				</ul>
+			</div>
+		</div></div>
+
+		<!--registr-->
+		<div class="register">
+			<form class="form2" id="registerForm" method="" action="">
+				<h6></h6>
+				<p><span><strong>*</strong>用 户 名 :</span><input id="user" name="user" type="text" placeholder="请输入用户名" autocomplete="off"/></p>
+				<p><span><strong>*</strong>输入密码:</span><input id="psw" name="psw" type="password" placeholder="请输入密码" /></p>
+				<p><span><strong>*</strong>重复密码:</span><input id="repsw" name="repsw" type="password" placeholder="请重复密码" /></p>
+				<p><span><strong>* </strong>  生 日 :</span><input id="birthday" readonly="readonly" name="birthday" type="text" placeholder="请输入您的生日" /></p>
+				<p><span><strong>*</strong>手机号码:</span><input id="phone" name="phone" type="text" placeholder="请输入您的手机号码" /></p>
+				<p id="verify_error">验证码错误!</p>
+				<p class="input_last"><span><strong>*</strong>验 证 码 :</span><input id="verify_txt" class="verify" name="verify" type="text" placeholder="验证码"/></p>
+    			<p><button type="button" class="btn">获取验证码</button></p>
+                <!--<p><button type="button" class="btn">获取验证码</button></p>-->
+				<p class="agree_p"><input id="checkbox" type="checkbox" name="checkbox" class="agree" />我已阅读并同意<b>《NO5用户注册协议》</b></p>
+				<!--<p class="btn_p"><input class="reg_btn" type="image" src="../images/btn-reg.png"></p>-->
+				<p class="btn_p"><input id="register_success" class="reg_btn" type="image" src="../images/btn-reg.png"></p>
+				<p class="form_last_p">如果您已经是No5时尚广场的会员，请点击   <a href="login.html">[登录]</a></p>
+			</form>
+		</div>
+		
+		<div id="show_success">
+			注册成功!去开心的登录吧！（3秒后跳转页面）
+		</div>
+		<div id="sorry_already">
+			对不起！该用户名已经被注册！
+		</div>
+		
+		
+		<!--friendlinks-->
+		<div class="friendlinks">
+			<div class="contact">
+				<div class="tel">
+					<p class="num">400-883-6655</p>
+					<p class="time">9:00-18:00</p>
+				</div>
+				<div class="sina">
+					新浪官方微博
+					<a href="javascript:;"><img src="../images/notice.jpg" /></a>
+				</div>
+				<div class="subscibebox">
+					<input class="eadd" type="text" value="请输入您的Emali地址" />
+					<div class="subscibe">
+						订阅
+					</div>
+				</div>
+				<h6>最新美容资讯，新品及促销信息</h6>
+			</div>
+			<ul class="how">
+				<p>如何订购</p>
+				<li>
+					<a href="javascript:;">网上下单</a>
+				</li>
+				<li>
+					<a href="javascript:;">电话订购</a>
+				</li>
+				<li>
+					<a href="javascript:;">邮寄订购</a>
+				</li>
+				<li>
+					<a href="javascript:;">传真订购</a>
+				</li>
+			</ul>
+			<ul class="how">
+				<p>如何送货</p>
+				<li>
+					<a href="javascript:;">送货上门</a>
+				</li>
+				<li>
+					<a href="javascript:;">快递</a>
+				</li>
+				<li>
+					<a href="javascript:;">邮政EMS</a>
+				</li>
+			</ul>
+			<ul class="how">
+				<p>如何付款</p>
+				<li>
+					<a href="javascript:;">货到付款</a>
+				</li>
+				<li>
+					<a href="javascript:;">在线支付</a>
+				</li>
+				<li>
+					<a href="javascript:;">邮政汇款</a>
+				</li>
+				<li>
+					<a href="javascript:;">银行汇款</a>
+				</li>
+			</ul>
+			<ul class="how">
+				<p>订单查询</p>
+				<li>
+					<a href="javascript:;">订单状态</a>
+				</li>
+				<li>
+					<a href="javascript:;">查询订单</a>
+				</li>
+				<li>
+					<a href="javascript:;">无效订单</a>
+				</li>
+				<li>
+					<a href="javascript:;">支付失败</a>
+				</li>
+				<li>
+					<a href="javascript:;">缺货登记</a>
+				</li>
+			</ul>
+			<ul class="how">
+				<p>会员服务</p>
+				<li>
+					<a href="javascript:;">N°5会员级别</a>
+				</li>
+				<li>
+					<a href="javascript:;">N°5购物保障</a>
+				</li>
+				<li>
+					<a href="javascript:;">N°5贴心服务</a>
+				</li>
+				<li>
+					<a href="javascript:;">账户积分使用</a>
+				</li>
+			</ul>
+			<ul class="how">
+				<p>联系我们</p>
+				<li>
+					<a href="javascript:;">关于N°5</a>
+				</li>
+				<li>
+					<a href="javascript:;">加入N°5</a>
+				</li>
+				<li>
+					<a href="javascript:;">团购加盟</a>
+				</li>
+				<li>
+					<a href="javascript:;">网站加盟</a>
+				</li>
+				<li>
+					<a href="javascript:;">投诉建议</a>
+				</li>
+			</ul>
+			<div class="sweep">
+				<img src="../images/2wm.jpg" />
+			</div>
+		</div>
+
+		<!--footer-->
+		<div class="footer">
+			<dl>
+				<dt><img src="../images/footer_img1.jpg"/></dt>
+				<dd>
+					<p>足不出户 享受网购乐趣</p>
+					<p>北京城区次日送达</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="../images/footer_img2.jpg"/></dt>
+				<dd>
+					<p>品质保证</p>
+					<p>15天不满意退换货</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="../images/footer_img3.jpg"/></dt>
+				<dd>
+					<p>价格实惠 购物有积分</p>
+					<p>积分抵现金</p>
+				</dd>
+			</dl>
+			<dl>
+				<dt><img src="../images/footer_img4.jpg"/></dt>
+				<dd>
+					<p>1800多城市送货上门</p>
+					<p>货到付款</p>
+				</dd>
+			</dl>
+
+		</div>
+		<!--copyright-->
+		<div class="copyright">
+			<p>Copyright &copy; 2001-2012 N°5.com.cn All Rights Reserved 京ICP备11045170号</p>
+		</div>
+       
+        <script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.validate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/messages_zh.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.form.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/register.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

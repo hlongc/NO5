@@ -1,0 +1,167 @@
+.indent{
+	width: 976px;
+	margin:0 auto;
+	padding: 12px 0 47px;
+	border: 1px solid;
+	overflow: hidden;
+}
+.my_count{
+	width: 153px;
+	float: left;
+	border: 1px solid #d0d0d0;
+	border-top-left-radius: 10px;
+}
+.query{
+	width: 807px;
+	height: 500px;
+	float: right;
+}
+.title{
+	height: 33px;
+	background: #28abe4;
+	color: #fff;
+	line-height: 33px;
+	padding-left: 10px;
+	font-size: 16px;
+	border-top-left-radius: 10px;
+}
+.more_operate{
+	padding: 12px 5px;
+}
+.bt{
+	width: 141px;
+	height: 32px;
+	line-height: 32px;
+	border: 1px solid #fad29c;
+	background: #fdf3d5;
+	font-weight: bold;
+	text-indent: 6px;
+}
+.more_operate li{
+	margin: 12px 0;
+	padding-left: 26px;
+}
+.more_operate span{
+	position: absolute;
+	margin-left: -10px;
+}
+.more_operate a:hover{
+	text-decoration: underline;
+	color: #ff6600;
+}
+.active{
+	color: #ff6600;
+	cursor:  auto;
+}
+.more_operate .active:hover{
+	color: #ff6600;
+	text-decoration: none;
+	
+}
+.title_q{
+	height: 33px;
+	border-bottom: 2px solid #69dbff;
+	background: #f2f2f2;
+	text-align: center;
+	line-height: 33px;
+	margin-bottom: 8px;
+}
+
+.indent_list{
+	height: 22px;
+}
+.indent_list div{
+	float: left;
+	width: 110px;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	cursor: pointer;
+	background: url(../images/indent-bg.png) no-repeat left -25px;
+}
+.indent_list .indent_active{
+	background: url(../images/indent-bg.png) no-repeat left top;
+}
+.indent_detail{
+	height: 24px;
+	border-top: 1px solid #c2d7ea;
+	border-bottom: 1px solid #c2d7ea;
+	/*margin-top: 5px;*/
+}
+.indent_detail div{
+	background: #eaf9fa;
+	border-right: 1px solid #c2d7ea;
+	color: #055090;
+	text-align: center;
+	line-height: 24px;
+	float: left;
+}
+.indent_num{
+	width: 105px;
+}
+.person{
+	width: 96px;
+}
+.pay_method{
+	width: 96px;
+}
+.should_pay{
+	width: 96px;
+}
+.status{
+	width: 96px;
+}
+.indent_time{
+	width: 152px;
+}
+.indent_detail .handle{
+	width: 158px;
+	border: 0;
+}
+.handle a{
+	margin-left: 5px;
+}
+.indent_lists{
+	overflow: hidden;
+}
+.indent_lists .indent_detail div{
+	color: #000;
+	background: #fff;
+}
+.indent_lists .indent_detail{
+	border: 0;
+}
+
+.indent_lists div{
+	border-right: 1px solid #fff;
+	float: left;
+	text-align: center;
+	border-bottom: 1px solid #eeeeee;
+	height: 26px;
+	line-height: 26px;
+}
+.indent_lists a{
+ 	color: #000066;
+ }
+ .intotal{
+ 	height: 32px;
+ 	line-height: 32px;
+ 	text-align: right;
+ 	color: #666666;
+ 	padding-right: 26px;
+ }
+ .intotal b{
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	border: 1px solid #000;
+	background: #bf0000;
+	color: #fff;
+	text-align: center;
+	line-height: 16px;
+	margin-top: 6px;
+ }
+ 
+#every_indent{
+	overflow: hidden;
+}
